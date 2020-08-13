@@ -1,0 +1,41 @@
+# work process
+work_process:
+  enable : true
+  title : "What keeps me Going ? "
+  item:
+  - title : "Research and Development"
+    icon : "images/icons/research.svg"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  - title : "Design and Painting"
+    icon : "images/icons/design.svg"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  - title : "Music Production/Youtuber"
+    icon : "images/icons/youtube.svg"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+
+# team
+team:
+  enable: true
+  title : "Major Certifications"
+  team_member:
+    - title : "Robotics Software Engineer Nanodegree"
+      image : "images/team/RL.png"
+      designation : "Udacity"
+
+    - title : "Deep Reinforcement Learning Nanodegree"
+      image : "images/team/robotics.png"
+      designation : "Udacity"
+
+    - title : "Deep Learning Specialization"
+      image : "images/team/DL.png"
+      designation : "Coursera/DeepLearning.ai"
+
+
+# client logo slider
+clients_logo_slider:
+  enable : true
+  title : "Tools I use"
+  # clients logo comes from 'data/homepage.yml' file

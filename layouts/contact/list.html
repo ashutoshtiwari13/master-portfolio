@@ -1,0 +1,61 @@
+{{ define "main" }}
+
+<!-- page title -->
+<section class="page-title bg-primary position-relative overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="text-white font-tertiary">{{.Title}}</h1>
+      </div>
+    </div>
+  </div>
+  <!-- background shapes -->
+    <img src="{{`images/illustrations/contactme.svg` | relURL}}" alt="bg-shape" class="bg-shape-4 w-80">
+    <img src="{{`images/illustrations/blog.svg` | relURL}}" alt="bg-shape" class="bg-shape-2 w-50">
+  <!-- <img src="{{`images/illustrations/page-title.png`| relURL}}" alt="illustrations" class="bg-shape-1 w-100"> -->
+  <img src="{{`images/illustrations/leaf-pink-round.svg`| relURL}}" alt="illustrations" class="bg-shape-2">
+  <img src="{{`images/illustrations/dots-cyan.svg`| relURL}}" alt="illustrations" class="bg-shape-3">
+  <img src="{{`images/illustrations/leaf-orange.svg`| relURL}}" alt="illustrations" class="bg-shape-4">
+  <img src="{{`images/illustrations/leaf-yellow.svg`| relURL}}" alt="illustrations" class="bg-shape-5">
+  <img src="{{`images/illustrations/dots-group-cyan.svg`| relURL}}" alt="illustrations" class="bg-shape-6">
+  <!-- <img src="{{`images/illustrations/leaf-cyan-lg.svg`| relURL}}" alt="illustrations" class="bg-shape-7"> -->
+</section>
+<!-- /page title -->
+
+{{ if site.Params.map.enable }}
+<section class="section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Find me on Google Map</h2>
+      </div>
+      <div class="col-12">
+        {{ with site.Params.map }}
+        {{"<!-- Google Map -->" | safeHTML}}
+        <div class="shadow" id="map" data-latitude="{{ .map_latitude }}" data-longitude="{{ .map_longitude }}"
+          data-marker="{{ .map_marker | absURL }}" data-marker-name="{{ site.Title }}" style="height: 400px;"></div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Follow me on Social</h2>
+      </div>
+      <div class="col-12">
+        <ul class="list-inline social-icons text-center">
+          {{ range site.Params.social }}
+          <li class="list-inline-item"><a href="{{.link}}"><i class="{{.icon}}"></i></a></li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

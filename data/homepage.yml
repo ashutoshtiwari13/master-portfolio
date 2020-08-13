@@ -1,0 +1,162 @@
+# banner
+banner:
+  title : "Hello 👋 ! I’m <br> Ashutosh <br> A Research Aficionado 👨‍💻"
+
+# about
+about:
+  enable : true
+  content : "Currently I am working full-time at Oracle as a software developer. Robotics has always kept in engrossed into various domains of science. I am interested in Reinforcement Learning and other research areas related to Deep learning."
+  button:
+    enable : true
+    label : "More About me"
+    URL : "about"
+
+# skill
+skill:
+  enable : true
+  title : "What I Do ?"
+  item:
+    - title : "Machine Learning"
+      progress : "90%"
+      color : "#fdb157"
+
+    - title : "Artificial Intelligence"
+      progress : "50%"
+      color : "#9473e6"
+
+    - title : "Robotics"
+      progress : "60%"
+      color : "#bdecf6"
+
+    - title : "Web Development"
+      progress : "70%"
+      color : "#ffbcaa"
+
+# experience
+experience:
+  enable : false
+  title : "Experience"
+  item:
+    - logo : "images/experience/bmsce.png"
+      title : "Research Assistant "
+      company : "BMSCE Robotics & Systems Lab"
+      duration : "Aug 2016 - Dec 2018"
+
+    - logo : "images/experience/accenture.jpg"
+      title : "Research Intern "
+      company : "Accenture R&D Data Lab"
+      duration : "June 2018 - Aug 2018"
+
+    - logo : "images/experience/epicor.png"
+      title : "Data Engineering Intern"
+      company : "Epicor Automation Lab"
+      duration : "Jan 2019 - May 2019"
+
+    - logo : "images/experience/oracle_2.jpg"
+      title : "Software Developer"
+      company : "Oracle Applications Lab"
+      duration : "June 2019 - Present"
+
+# education
+education:
+  enable : true
+  title : "Education"
+  item:
+    - logo : "images/experience/bmscelogo.png"
+      title : "B.E in Computer Science & Engineering"
+      year : "2015 -2019"
+      academy : "B.M.S. College of Engineering,India"
+
+    - logo : "images/experience/dps.jpeg"
+      title : "Higher Secondary School Certificate"
+      year : "2015"
+      academy : "Delhi Public School, India"
+
+# service
+service:
+  enable : false
+  title : "Services"
+  item:
+    - title : "UI Design"
+      icon : "ti-palette"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      highlighted : false
+
+    - title : "UX Design"
+      icon : "ti-vector"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      highlighted : true
+
+    - title : "Interaction Design"
+      icon : "ti-panel"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      highlighted : false
+
+# portfolio
+portfolio:
+  enable : true
+  title : "Projects"
+  item_show : 5
+  # portfolio item comes from 'data/portfolio.yml' item.
+
+# publications
+publication:
+  enable : true
+  title : "Publications"
+  content : "This is a paper 1"
+  item_show : 3
+
+# client logo slider
+clients_logo_slider:
+  enable : true
+  title : "What I use ?"
+  item:
+    - logo : "images/clients-logo/ROS.png"
+      URL : "http://examplesite.com"
+
+    - logo : "images/clients-logo/opencv.png"
+      URL : "#"
+
+    - logo : "images/clients-logo/Pytorch.png"
+      URL : "http://examplesite.com"
+
+    - logo : "images/clients-logo/keras.png"
+      URL : "#"
+
+    - logo : "images/clients-logo/openai.png"
+      URL : "http://examplesite.com"
+
+    - logo : "images/clients-logo/pybullet.png"
+      URL : "#"
+
+    - logo : "images/clients-logo/RL.png"
+      URL : "http://examplesite.com"
+
+    - logo : "images/clients-logo/amazon.png"
+      URL : "#"
+
+# blog
+blog:
+  enable : true
+  title : "Blogs"
+  # blog post comes from "content/blog" folder
+
+# testimonial
+testimonial:
+  enable : false
+  title : "Recommendations"
+  item:
+    - name : "Karsin Kamakotti"
+      image : "images/testimonial/karsin.jpeg"
+      designation : "Senior Technical Staff at Oracle"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+    - name : "Padmaraj Bhat"
+      image : "images/testimonial/paddy.jpeg"
+      designation : "Researcher at Accenture AI Labs"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+    - name : "Madhusudhan Anand"
+      image : "images/testimonial/maddy.jpeg"
+      designation : "CTO/Co-founder at Ambee"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."

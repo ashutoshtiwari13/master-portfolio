@@ -1,7 +1,7 @@
 ---
-title: "Policy Gradient Methods"
+title: "PG Methods"
 date: 2020-04-13:14:34+06:00
-image: "images/blog/post-1.jpeg"
+image: "images/blog/post-2.jpeg"
 description: "This is meta description."
 draft: false
 ---

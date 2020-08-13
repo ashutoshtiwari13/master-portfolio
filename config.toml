@@ -1,5 +1,5 @@
 # default configuration
-baseURL = "https://ashutoshtiwari-portfolio.com"
+baseURL = "https://ashutoshtiwari13.github.io"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"

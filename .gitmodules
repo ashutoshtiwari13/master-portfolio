@@ -4,3 +4,7 @@
 [submodule "themes/kross-hugo"]
 	path = themes/kross-hugo
 	url = https://github.com/themefisher/kross-hugo.git
+[submodule "public"]
+	path = public
+	url = https://github.com/ashutoshtiwari13/ashutoshtiwari13.github.io.git
+	branch = master

@@ -1,6 +1,0 @@
-[build]
-  publish = "themes/kross-hugo/exampleSite/public"
-  command = "cd themes/kross-hugo/exampleSite && hugo --themesDir ../.."
-
-[build.environment]
-  HUGO_VERSION = "0.71.1"

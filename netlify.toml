@@ -1,7 +1,7 @@
 [build]
-  publish = "public"
-  command = "hugo --themesDir ."
+  publish = "themes/kross-hugo/exampleSite/public"
+  command = "cd themes/kross-hugo/exampleSite && hugo --themesDir ../.."
 
 [build.environment]
   HUGO_VERSION = "0.71.1"
-  HUGO_THEME = "kross-hugo"
+  HUGO_THEME = "repo"

@@ -93,7 +93,7 @@ map_marker = "images/marker.png"
 # social site
 [[params.social]]
 icon = "ti-github"
-URL = "#"
+URL = "https://github.com/ashutoshtiwari13"
 
 [[params.social]]
 icon = "ti-youtube"

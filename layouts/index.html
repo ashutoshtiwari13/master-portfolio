@@ -5,7 +5,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-11 mx-auto">
-          <h1 class="text-white font-tertiary">{{ site.Data.homepage.banner.title | safeHTML }}</h1>
+          <h1 class="text-white font-title">{{ site.Data.homepage.banner.title | safeHTML }}</h1>
         </div>
       </div>
     </div>
@@ -58,6 +58,9 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-10 mx-auto text-center">
+          <p class = "h4 font-italic font-tertiary text-dark " > “We are what we are because we have been what we have been, and what is needed for solving the problems of human life and motives is not moral estimates but more knowledge.” –Sigmund Freud </p>
+          <br>
+          </br>
           {{ with site.Data.homepage.about }}
           <p class="font-custom lead text-dark">{{.content | markdownify}}</p>
           {{ if .button.enable }}
@@ -305,7 +308,7 @@
         <div class="col-12 text-center">
           <h2 class="section-title">{{site.Data.homepage.blog.title | markdownify }}</h2>
         </div>
-        {{ range first 3 site.RegularPages }}
+        {{ range first 5 site.RegularPages }}
         {{ .Render "post" }}
         {{ end }}
       </div>

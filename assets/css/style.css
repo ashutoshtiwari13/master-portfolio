@@ -343,6 +343,16 @@ a:hover {
   font-family: bwnistaint-xbd !important
 }
 
+.font-title {
+  font-family: bwnistaint-xbd !important;
+  font-size : 75px;
+}
+
+.font-custom {
+  font-family: GoodMorning !important;
+  font-size : 21px;
+}
+
 .shadow {
   box-shadow: 0 18px 39.1px 6.9px rgba(224, 241, 255, .34) !important
 }

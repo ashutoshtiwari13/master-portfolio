@@ -5,7 +5,7 @@ banner:
 # about
 about:
   enable : true
-  content : "Currently I am working full-time at Oracle as a software developer. Robotics has always kept in engrossed into various domains of science. I am interested in Reinforcement Learning and other research areas related to Deep learning."
+  content : "Currently I am working at Oracle as a Software Developer. My interests in Behavioral Psychology , Neuroscience and the working of Brain, has kept me riveted to areas of Reinforcement Learning, Robotics and other research areas related to Deep learning."
   button:
     enable : true
     label : "More About me"

@@ -144,7 +144,7 @@ clients_logo_slider:
 
 # blog
 blog:
-  enable : true
+  enable : false
   title : "Blogs"
   item_show : 3
   # blog post comes from "content/blog" folder

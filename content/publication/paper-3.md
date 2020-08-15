@@ -1,7 +1,7 @@
 ---
 title: "LeCORe : A Framework for modelling Learner's preference"
 date: 2020-07-13T12:14:34+06:00
-image: "images/portfolio/item-1.png"
+image: "images/publication/item-1.gif"
 client: "Ashutosh Tiwari as Co-author"
 paper_url : "https://www.linkedin.com/in/ashutoshtiwaridev/"
 categories: ["Robotics","Deep Learning"]

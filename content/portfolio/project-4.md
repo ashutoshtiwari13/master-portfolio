@@ -1,10 +1,10 @@
 ---
-title: "Artwork Design"
+title: "Sample project 4"
 date: 2019-05-12T12:14:34+06:00
-image: "images/portfolio/item-5.png"
-client: "John Doe"
-project_url : "https://themefisher.com/"
-categories: ["design"]
+image: "images/portfolio/item-4.svg"
+client: "Ashutosh Tiwari"
+project_url : ""
+categories: ["RL", "Deep Learning"]
 description: "This is meta description."
 draft: false
 ---

@@ -1,7 +1,7 @@
 ---
 title: "A DRL approach to Robot Grasping"
 date: 2020-06-12T12:14:34+06:00
-image: "images/portfolio/item-1.png"
+image: "images/publication/item-5.gif"
 client: "Ashutosh Tiwari as Co-author"
 paper_url : "https://www.linkedin.com/in/ashutoshtiwaridev/"
 categories: ["Robotics","RL"]

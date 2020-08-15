@@ -80,7 +80,7 @@ preloader = "images/start.gif" # use png, jpg, svg or gif format
 # contact
 [params.contact]
 enable = true
-form_action = "#" # contact form works with : https://formspree.io
+form_action = "https://getform.io/f/34f27f1d-8623-4a0f-9734-1ce338dbecdf" 
 
 # google map
 [params.map]

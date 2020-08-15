@@ -12,7 +12,7 @@
 
 
     <div class="layer-bg w-100">
-      <img class="img-back w-100" src="{{`images/illustrations/robot.png` | relURL}}" alt="bg-shape">
+      <img class="img-fluid w-100" src="{{`images/illustrations/robot.png` | relURL}}" alt="bg-shape">
     </div>
     <div class="layer" id="l1">
       <img src="{{`images/illustrations/leaf-bg.png` | relURL}}" alt="bg-shape">
@@ -45,7 +45,7 @@
     <!-- social icon -->
     <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
       {{ range site.Params.social }}
-      <li class="mb-10"><a class="text-white" href="{{.URL | safeURL }}"><i class="{{.icon}}"></i></a></li>
+      <li class="mb-10"><a class="text-white" href="{{.URL | safeURL }}"><i style= "font-size : 27px" class="{{.icon}}"></i></a></li>
       {{ end }}
     </ul>
     <!-- /social icon -->
@@ -216,6 +216,16 @@
         </div>
         {{ end }}
       </div>
+
+      <br>
+      <div class="pub-port-botton">
+      {{ if site.Data.homepage.portfolio.button.enable }}
+      {{ with site.Data.homepage.portfolio.button }}
+      <a href="{{ .URL | absURL }}" class="btn btn-primary">{{.label}}</a>
+      {{ end }}
+      {{ end }}
+      </div>
+
     </div>
   </section>
   <!-- /portfolio -->
@@ -244,6 +254,15 @@
           </div>
         </div>
         {{ end }}
+      </div>
+
+      <br>
+      <div class="pub-port-botton">
+      {{ if site.Data.homepage.publication.button.enable }}
+      {{ with site.Data.homepage.publication.button }}
+      <a href="{{ .URL | absURL }}" class="btn btn-primary">{{.label}}</a>
+      {{ end }}
+      {{ end }}
       </div>
     </div>
   </section>
@@ -308,7 +327,7 @@
         <div class="col-12 text-center">
           <h2 class="section-title">{{site.Data.homepage.blog.title | markdownify }}</h2>
         </div>
-        {{ range first 5 site.RegularPages }}
+        {{ range first 3 site.RegularPages }}
         {{ .Render "post" }}
         {{ end }}
       </div>

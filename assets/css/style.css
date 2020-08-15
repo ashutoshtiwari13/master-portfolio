@@ -538,7 +538,7 @@ textarea.form-control {
 
 .layer-bg {
   position: absolute;
-  bottom: 0;
+  top: -200px;
   left: 0
 }
 
@@ -898,6 +898,10 @@ blockquote {
   background-color: var(--primary-color);
   font-size: 20px;
   text-align: center;
+}
+
+.pub-port-botton{
+  text-align : center;
 }
 
 .project-meta{

@@ -97,14 +97,21 @@ portfolio:
   enable : true
   title : "Projects"
   item_show : 5
+  button:
+    enable : true
+    label : "More Projects"
+    URL : "portfolio"
   # portfolio item comes from 'data/portfolio.yml' item.
 
 # publications
 publication:
   enable : true
   title : "Publications"
-  content : "This is a paper 1"
   item_show : 3
+  button:
+    enable : true
+    label : "See More"
+    URL : "publication"
 
 # client logo slider
 clients_logo_slider:
@@ -112,33 +119,34 @@ clients_logo_slider:
   title : "What I use ?"
   item:
     - logo : "images/clients-logo/ROS.png"
-      URL : "http://examplesite.com"
+      URL : "https://www.ros.org/"
 
     - logo : "images/clients-logo/opencv.png"
-      URL : "#"
+      URL : "https://github.com/opencv/opencv"
 
     - logo : "images/clients-logo/Pytorch.png"
-      URL : "http://examplesite.com"
+      URL : "https://github.com/pytorch/pytorch"
 
     - logo : "images/clients-logo/keras.png"
-      URL : "#"
+      URL : "https://www.tensorflow.org/"
 
     - logo : "images/clients-logo/openai.png"
-      URL : "http://examplesite.com"
+      URL : "https://openai.com/"
 
     - logo : "images/clients-logo/pybullet.png"
-      URL : "#"
+      URL : "https://github.com/bulletphysics/bullet3/tree/master/examples/pybullet"
 
     - logo : "images/clients-logo/RL.png"
-      URL : "http://examplesite.com"
+      URL : "https://github.com/ashutoshtiwari13/Demystifying-Deep-Reinforcement-Learning"
 
     - logo : "images/clients-logo/amazon.png"
-      URL : "#"
+      URL : "https://docs.aws.amazon.com/machine-learning/"
 
 # blog
 blog:
   enable : true
   title : "Blogs"
+  item_show : 3
   # blog post comes from "content/blog" folder
 
 # testimonial

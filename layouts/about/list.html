@@ -54,8 +54,16 @@
         <img src="{{ .icon | absURL }}" class="mb-4" alt="icon" height ="250" width="240">
         <h4 class="mb-4">{{ .title }}</h4>
         <p>{{ .content | markdownify }}</p>
+        {{ if .button_about.enable }}
+        {{ with .button_about }}
+        <a href="{{ .URL | absURL }}" class="btn btn-primary">{{.label}}</a>
+        <!-- <a href="{{ .URL | absURL }}" class="btn btn-knowmore-resume">{{.label}}</a> -->
+        {{ end }}
+        {{ end }}
+
       </div>
       {{ end }}
+
     </div>
   </div>
 </section>

@@ -4,7 +4,7 @@
   <section class="hero-area bg-primary overflow-hidden" id="parallax">
     <div class="container">
       <div class="row">
-        <div class="col-lg-10 mx-auto">
+        <div class="col-lg-12 mx-auto">
           <h1 class="text-white font-title">{{ site.Data.homepage.banner.title | safeHTML }}</h1>
         </div>
       </div>
@@ -13,8 +13,11 @@
     <div class="layer-bg w-100">
       <img class="img-fluid w-100" src="{{`images/illustrations/robot.png` | relURL}}" alt="bg-shape">
     </div>
-    <div class="layer" id="l1">
+    <!-- <div class="layer" id="l1">
       <img src="{{`images/illustrations/leaf-bg.png` | relURL}}" alt="bg-shape">
+    </div> -->
+    <div class="layer-bg w-100">
+      <img class="img-fluid w-100" src="{{`images/illustrations/leaf-bg.png` | relURL}}" alt="bg-shape">
     </div>
     <div class="layer" id="l2">
       <img src="{{`images/illustrations/dots-cyan.svg` | relURL}}" alt="bg-shape">
@@ -62,9 +65,18 @@
           </br>
           {{ with site.Data.homepage.about }}
           <p class="font-custom lead text-dark">{{.content | markdownify}}</p>
-          {{ if .button.enable }}
-          {{ with .button }}
-          <a href="{{ .URL | absURL }}" class="btn btn-primary">{{.label}}</a>
+
+          <br>
+          {{ if .button1.enable }}
+          {{ with .button1 }}
+          <a href="{{ .URL | absURL }}" class="btn btn-knowmore-resume">{{.label}}</a>
+          <!-- <a href="{{ .URL | absURL }}" class="btn btn-knowmore-resume">{{.label}}</a> -->
+          {{ end }}
+          {{ end }}
+
+          {{ if .button2.enable }}
+          {{ with .button2 }}
+              <a href="{{ .URL | absURL }}" class="btn btn-knowmore-resume">{{.label}}</a>
           {{ end }}
           {{ end }}
           {{ end }}
@@ -264,46 +276,10 @@
       {{ end }}
       </div>
     </div>
+
   </section>
   <!-- /portfolio -->
   {{ end }}
-
-
-  {{ if site.Data.homepage.testimonial.enable }}
-  {{ with site.Data.homepage.testimonial }}
-  <!-- testimonial -->
-  <section class="section bg-primary position-relative testimonial-bg-shapes">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <h2 class="section-title text-white mb-5">{{ site.Data.homepage.clients_logo_slider.title | markdownify }}</h2>
-        </div>
-        <div class="col-lg-10 mx-auto testimonial-slider">
-          {{ range .item }}
-          <!-- slider-item -->
-          <div class="text-center testimonial-content">
-            <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
-            <p class="text-white mb-4">{{.content | markdownify}}</p>
-            <img class="img-fluid rounded-circle mb-4 d-inline-block" src="{{.image | absURL }}" alt="client-image">
-            <h4 class="text-white">{{.name }}</h4>
-            <h6 class="text-light mb-4">{{ .designation }}</h6>
-          </div>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-    <!-- bg shapes -->
-    <img src="{{`images/backgrounds/map.png` | relURL }}" alt="map" class="img-fluid bg-map">
-    <img src="{{`images/illustrations/dots-group-v.svg` | relURL }}" alt="bg-shape" class="img-fluid bg-shape-1">
-    <img src="{{`images/illustrations/leaf-orange.svg` | relURL }}" alt="bg-shape" class="img-fluid bg-shape-2">
-    <img src="{{`images/illustrations/dots-group-sm.svg` | relURL }}" alt="bg-shape" class="img-fluid bg-shape-3">
-    <img src="{{`images/illustrations/leaf-pink-round.svg` | relURL }}" alt="bg-shape" class="img-fluid bg-shape-4">
-    <img src="{{`images/illustrations/leaf-cyan.svg` | relURL }}" alt="bg-shape" class="img-fluid bg-shape-5">
-  </section>
-  <!-- /testimonial -->
-  {{ end }}
-  {{ end }}
-
 
   {{ if site.Data.homepage.clients_logo_slider.enable }}
   <!-- client logo slider -->
@@ -336,5 +312,39 @@
   <!-- /blog -->
   {{ end }}
 
+  {{ if site.Data.homepage.testimonial.enable }}
+  {{ with site.Data.homepage.testimonial }}
+  <!-- testimonial -->
+  <section class="section bg-primary position-relative testimonial-bg-shapes">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title text-white mb-5">{{ site.Data.homepage.testimonial.title | markdownify }}</h2>
+        </div>
+        <div class="col-lg-10 mx-auto testimonial-slider">
+          {{ range .item }}
+          <!-- slider-item -->
+          <div class="text-center testimonial-content">
+            <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
+            <p class="text-white mb-4">{{.content | markdownify}}</p>
+            <img class="img-fluid rounded-circle mb-4 d-inline-block" src="{{.image | absURL }}" alt="client-image">
+            <h4 class="text-white">{{.name }}</h4>
+            <h6 class="text-light mb-4">{{ .designation }}</h6>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    <!-- bg shapes -->
+    <img src="{{`images/backgrounds/map.png` | relURL }}" alt="map" class="img-fluid bg-map">
+    <img src="{{`images/illustrations/dots-group-v.svg` | relURL }}" alt="bg-shape" class="img-fluid bg-shape-1">
+    <img src="{{`images/illustrations/leaf-orange.svg` | relURL }}" alt="bg-shape" class="img-fluid bg-shape-2">
+    <img src="{{`images/illustrations/dots-group-sm.svg` | relURL }}" alt="bg-shape" class="img-fluid bg-shape-3">
+    <img src="{{`images/illustrations/leaf-pink-round.svg` | relURL }}" alt="bg-shape" class="img-fluid bg-shape-4">
+    <img src="{{`images/illustrations/leaf-cyan.svg` | relURL }}" alt="bg-shape" class="img-fluid bg-shape-5">
+  </section>
+  <!-- /testimonial -->
+  {{ end }}
+  {{ end }}
 
 {{ end }}

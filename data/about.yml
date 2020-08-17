@@ -2,18 +2,31 @@
 work_process:
   enable : true
   title : "What keeps me Going ? "
+
   item:
   - title : "Research and Development"
     icon : "images/icons/research.svg"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "You can take a look at my Projects and Publications to know more about my Research interests and Development work. 👨‍💻"
+    button_about:
+      enable : true
+      URL: "publication"
+      label : "See Projects"
 
   - title : "Design and Painting"
     icon : "images/icons/design.svg"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "I love to create illustrations, designs and pencil potraits.Feel free to contact if you want one for yourself too 🤩. "
+    button_about:
+      enable : true
+      URL : "https://ashutoshartworld.wordpress.com/"
+      label : "Visit Website"
 
   - title : "Music Production/Youtuber"
     icon : "images/icons/youtube.svg"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "I love creating Music/Mashups and Dj Remixes using Ableton and FL Studio Softwares.I host a youtube channel and Google podcast by the name - Exodusk Planet EDM 🎶"
+    button_about:
+      enable : true
+      URL : "https://exoduashutosh.hubhopper.com"
+      label : "Visit Page"
 
 
 # team

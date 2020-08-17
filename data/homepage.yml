@@ -1,15 +1,19 @@
 # banner
 banner:
-  title : "Hello 👋 ! I’m <br> Ashutosh <br> A Research Aficionado 👨‍💻"
+  title : "Hello 👋 ! I’m <br> Ashutosh <br> A self-taught Programmer 👨‍💻"
 
 # about
 about:
   enable : true
   content : "Currently I am working at Oracle as a Software Developer. My interests in Behavioral Psychology , Neuroscience and the working of Brain, has kept me riveted to areas of Reinforcement Learning, Robotics and other research areas related to Deep learning."
-  button:
+  button1:
     enable : true
     label : "More About me"
     URL : "about"
+  button2:
+    enable : true
+    label : "View Resume"
+    URL : "contact"
 
 # skill
 skill:
@@ -21,7 +25,7 @@ skill:
       color : "#fdb157"
 
     - title : "Artificial Intelligence"
-      progress : "50%"
+      progress : "70%"
       color : "#9473e6"
 
     - title : "Robotics"
@@ -65,12 +69,12 @@ education:
     - logo : "images/experience/bmscelogo.png"
       title : "B.E in Computer Science & Engineering"
       year : "2015 -2019"
-      academy : "B.M.S. College of Engineering,India"
+      academy : "B.M.S. College of Engineering,Bangalore,India"
 
     - logo : "images/experience/dps.jpeg"
       title : "Higher Secondary School Certificate"
       year : "2015"
-      academy : "Delhi Public School, India"
+      academy : "Delhi Public School, Bokaro Steel city, India"
 
 # service
 service:
@@ -96,7 +100,7 @@ service:
 portfolio:
   enable : true
   title : "Projects"
-  item_show : 5
+  item_show : 6
   button:
     enable : true
     label : "More Projects"

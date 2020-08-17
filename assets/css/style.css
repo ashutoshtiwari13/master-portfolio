@@ -213,6 +213,11 @@ a.text-dark:hover {
   color: var(--primary-color) !important
 }
 
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
 a:hover {
   color: var(--primary-color)
 }
@@ -224,6 +229,16 @@ a:hover {
 .section {
   padding-top: 80px;
   padding-bottom: 80px
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.container {
+    padding-left:60px;
+    padding-right:60px;
 }
 
 .section-title {
@@ -748,6 +763,7 @@ textarea.form-control {
   flex-direction: row-reverse;
   align-items: center
 }
+
 
 @media(max-width:991px) {
   .card-lg {

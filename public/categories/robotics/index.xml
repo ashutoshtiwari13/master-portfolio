@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robotics on &lt;Ashutosh Tiwari/&gt;</title>
+    <link>https://ashutoshtiwari13.github.io/categories/robotics/</link>
+    <description>Recent content in Robotics on &lt;Ashutosh Tiwari/&gt;</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Aug 2020 12:14:34 +0600</lastBuildDate>
+    
+	<atom:link href="https://ashutoshtiwari13.github.io/categories/robotics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Augmented Random Search for quadcopter control : An alternative to reinforcement learning</title>
+      <link>https://ashutoshtiwari13.github.io/publication/paper-1/</link>
+      <pubDate>Sat, 15 Aug 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://ashutoshtiwari13.github.io/publication/paper-1/</guid>
+      <description>Paper details Model-based reinforcement learning strategies are believed to exhibit more significant sample complexity than model-free strategies to control dynamical systems,such as quadcopters.</description>
+    </item>
+    
+    <item>
+      <title>New Fusion Algorithm provides an alternative approach for Robotic path planning</title>
+      <link>https://ashutoshtiwari13.github.io/publication/paper-2/</link>
+      <pubDate>Fri, 14 Aug 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://ashutoshtiwari13.github.io/publication/paper-2/</guid>
+      <description>Paper details For rapid growth in technology and automation, human tasks are being taken over by robots as robots have proven to be better with both speed and precision.</description>
+    </item>
+    
+    <item>
+      <title>LeCORe : A Framework for modelling Learner&#39;s preference</title>
+      <link>https://ashutoshtiwari13.github.io/publication/paper-3/</link>
+      <pubDate>Mon, 13 Jul 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://ashutoshtiwari13.github.io/publication/paper-3/</guid>
+      <description>Paper details Learning &amp;amp; development (L&amp;amp;D) is an important strategic factor for sustainable business growth of any organization.</description>
+    </item>
+    
+    <item>
+      <title>A DRL approach to Robot Grasping</title>
+      <link>https://ashutoshtiwari13.github.io/publication/paper-5/</link>
+      <pubDate>Fri, 12 Jun 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://ashutoshtiwari13.github.io/publication/paper-5/</guid>
+      <description>Paper details Under Review in International Journal of Computational Vision and Robotics (IJCVR)</description>
+    </item>
+    
+  </channel>
+</rss>

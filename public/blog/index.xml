@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on &lt;Ashutosh Tiwari/&gt;</title>
+    <link>https://ashutoshtiwari13.github.io/blog/</link>
+    <description>Recent content in Blog on &lt;Ashutosh Tiwari/&gt;</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Aug 2020 18:14:34 +0600</lastBuildDate>
+    
+	<atom:link href="https://ashutoshtiwari13.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction to Open Gym AI</title>
+      <link>https://ashutoshtiwari13.github.io/blog/post-7/</link>
+      <pubDate>Sat, 15 Aug 2020 18:14:34 +0600</pubDate>
+      
+      <guid>https://ashutoshtiwari13.github.io/blog/post-7/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+    <item>
+      <title>A2C, TRPO and PPO Optimization algorithms</title>
+      <link>https://ashutoshtiwari13.github.io/blog/post-5/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      
+      <guid>https://ashutoshtiwari13.github.io/blog/post-5/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+    <item>
+      <title>Deep Reinforcement Learning-Birds View </title>
+      <link>https://ashutoshtiwari13.github.io/blog/post-2/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      
+      <guid>https://ashutoshtiwari13.github.io/blog/post-2/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Modular programming in RL</title>
+      <link>https://ashutoshtiwari13.github.io/blog/post-6/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      
+      <guid>https://ashutoshtiwari13.github.io/blog/post-6/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Open Gym AI</title>
+      <link>https://ashutoshtiwari13.github.io/blog/post-1/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      
+      <guid>https://ashutoshtiwari13.github.io/blog/post-1/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+    <item>
+      <title>Open AI Gym environments for the future</title>
+      <link>https://ashutoshtiwari13.github.io/blog/post-3/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      
+      <guid>https://ashutoshtiwari13.github.io/blog/post-3/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+    <item>
+      <title>Policy Gradient control and methods</title>
+      <link>https://ashutoshtiwari13.github.io/blog/post-4/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      
+      <guid>https://ashutoshtiwari13.github.io/blog/post-4/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+  </channel>
+</rss>

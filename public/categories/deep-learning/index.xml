@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep Learning on &lt;Ashutosh Tiwari/&gt;</title>
+    <link>https://ashutoshtiwari13.github.io/categories/deep-learning/</link>
+    <description>Recent content in Deep Learning on &lt;Ashutosh Tiwari/&gt;</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Jul 2020 12:14:34 +0600</lastBuildDate>
+    
+	<atom:link href="https://ashutoshtiwari13.github.io/categories/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LeCORe : A Framework for modelling Learner&#39;s preference</title>
+      <link>https://ashutoshtiwari13.github.io/publication/paper-3/</link>
+      <pubDate>Mon, 13 Jul 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://ashutoshtiwari13.github.io/publication/paper-3/</guid>
+      <description>Paper details Learning &amp;amp; development (L&amp;amp;D) is an important strategic factor for sustainable business growth of any organization.</description>
+    </item>
+    
+    <item>
+      <title>Learning semantic Image attributes using Image recognition and knowledge Graph embeddings</title>
+      <link>https://ashutoshtiwari13.github.io/publication/paper-4/</link>
+      <pubDate>Fri, 10 Jul 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://ashutoshtiwari13.github.io/publication/paper-4/</guid>
+      <description>Paper details Accepted at Future Technologies Conference (FTC) 2020 , Vancouver, Canada</description>
+    </item>
+    
+    <item>
+      <title>Sample project 3</title>
+      <link>https://ashutoshtiwari13.github.io/portfolio/project-3/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      
+      <guid>https://ashutoshtiwari13.github.io/portfolio/project-3/</guid>
+      <description>Project Requirements Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+    <item>
+      <title>Sample project 4</title>
+      <link>https://ashutoshtiwari13.github.io/portfolio/project-4/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      
+      <guid>https://ashutoshtiwari13.github.io/portfolio/project-4/</guid>
+      <description>Project Requirements Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+  </channel>
+</rss>

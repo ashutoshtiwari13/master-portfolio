@@ -1,30 +1,25 @@
 ---
-title: "Sample project 2"
+title: "Image Segmentation using PCL"
 date: 2019-05-12T12:14:34+06:00
-image: "images/portfolio/item-2.svg"
+image: "images/portfolio/item-2.png"
 client: "Ashutosh Tiwari"
-project_url : ""
-categories: ["RL" , "Illustration"]
+project_url : "https://github.com/ashutoshtiwari13/Hands-on-ROS-botics"
+categories: ["Robotics"]
 description: "This is meta description."
 draft: false
 ---
 
-#### Project Requirements
+## Project Heads-up
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum.
+The project creates a [ROS Node](http://wiki.ros.org/ROS/Tutorials/UnderstandingNodes) for image segmentation for objects kept on the cluttered table from the `pcd`'s used in the RANSAC plane fitting project above. The setup is run and tested on the RoboND simulator Environment provided by Udacity. The segmentation has been visualized in `Rviz` by selecting the `/pcl_objects` topic.
+A successful implementation of the cluster based segmentation using [Voxel Grid filtering](https://python-pcl-fork.readthedocs.io/en/rc_patches4/tutorial/filtering.html#downsampling-a-pointcloud-using-a-voxelgrid-filter) results in assigning a different colour to each custer.
+
+The `Gazebo` setup for the same table top consists of a stick robot with an RBG-D camera attached to its head.
 
 
-#### Project Details
+## Project Details
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.
+#### Click 👉 for  [Project Details](https://github.com/ashutoshtiwari13/ROS-PCL-Segmentation#Image-Segmentation)
+
+
+<img src="https://github.com/ashutoshtiwari13/ROS-PCL-Segmentation/blob/master/sensor_stick/pcl1.png" height="425px" width="380px" hspace="20"/><img src="https://github.com/ashutoshtiwari13/ROS-PCL-Segmentation/blob/master/sensor_stick/pcl2.png" height="425px" width="400px"/>

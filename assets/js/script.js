@@ -1,6 +1,6 @@
 // Preloader js
 $(window).on('load', function () {
-	$('.preloader').fadeOut(500);
+	$('.preloader').fadeOut(200);
 });
 
 (function ($) {

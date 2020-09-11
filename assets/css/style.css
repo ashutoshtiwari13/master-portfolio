@@ -573,6 +573,14 @@ textarea.form-control {
   z-index:1
 }
 
+.layer-bg-leaf {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  z-index:1
+}
+
+
 .progress-wrapper {
   height: 130px;
   overflow: hidden

@@ -65,11 +65,11 @@ email = "reachatashutosh@gmail.com"
 address = "Bengaluru, India"
 # meta description
 author = "Ashutosh Tiwari"
-description = "Developer at Night. Loves to code. "
+description = "A self-taught Programmer "
 # google analytics
 google_analytics_id = "" # Your ID
 # copyright
-copyright = "Made with ☕️ By Ashutosh Tiwari"
+copyright = "Made with ☕️ & ❤️ By Ashutosh Tiwari"
 
 
 # preloader
@@ -86,8 +86,8 @@ form_action = "https://formspree.io/xvowyynq"
 [params.map]
 enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=&#038;types=(cities)&#038;libraries=places&#038;language=en"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
+map_latitude = "12.9791198"
+map_longitude = "77.5912997"
 map_marker = "images/marker.png"
 
 # social site

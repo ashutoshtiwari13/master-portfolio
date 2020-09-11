@@ -17,7 +17,7 @@ work_process:
     content : "I love to create illustrations, designs and pencil potraits.Feel free to contact if you want one for yourself too 🤩. "
     button_about:
       enable : true
-      URL : "https://ashutoshartworld.wordpress.com/"
+      URL : "https://www.dribbble.com/Exodusk"
       label : "Visit Website"
 
   - title : "Music Production/Youtuber"
@@ -45,6 +45,18 @@ team:
     - title : "Deep Learning Specialization"
       image : "images/team/DL.png"
       designation : "Coursera/DeepLearning.ai"
+
+    - title : "Google Android Developer"
+      image : "images/team/android.jpg"
+      designation : "Google | Simplilearn"
+      
+    - title : "Arcore and Augmented Reality"
+      image : "images/team/arcore.png"
+      designation : "Google Daydream | Coursera"
+
+    - title : "Autonomous Flight Engineer "
+      image : "images/team/flyingcar.png"
+      designation : "Udacity"
 
 
 # client logo slider

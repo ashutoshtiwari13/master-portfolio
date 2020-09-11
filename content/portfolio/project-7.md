@@ -9,12 +9,11 @@ description: "This is meta description."
 draft: false
 ---
 
-## Project Heads-up
+#### Project Heads-up
 
 This project uses essential elements of Robotics, perception, decision making and Actuation to drive a rover Autonomously.The simulator ran on a resolution of 800x600 with the graphics set to fantastic. From these settings, the rover was able to map most of the map with fidelity from 60% to 70% and find the location of rocks from his navigation path.
 
 
-## Project Details
 
 #### Click 👉 for [Project Details](https://github.com/ashutoshtiwari13/RoverWorld-perception-Control)
 

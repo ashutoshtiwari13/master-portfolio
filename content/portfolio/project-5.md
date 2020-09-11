@@ -1,6 +1,6 @@
 ---
 title: "Kuka-Robotic Arm Pick and Drop"
-date: 2019-05-12T12:14:34+06:00
+date: 2020-09-02T12:14:34+06:00
 image: "images/portfolio/item-5.gif"
 client: "Ashutosh Tiwari"
 project_url : "https://github.com/ashutoshtiwari13/Hands-on-ROS-botics"
@@ -9,12 +9,10 @@ description: "This is meta description."
 draft: false
 ---
 
-## Project Heads-up
+#### Project Heads-up
 
 To be Updated
 
-
-## Project Details
 
 <p align="center">
 <img src="https://github.com/ashutoshtiwari13/Kuka-robotic-arm-Pick-Drop/blob/master/PickAndDrop.gif" height="400px" width="700px"/>

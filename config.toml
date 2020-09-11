@@ -74,7 +74,7 @@ copyright = "Made with ☕️ By Ashutosh Tiwari"
 
 # preloader
 [params.preloader]
-enable = true
+enable = false
 preloader = "images/start.gif" # use png, jpg, svg or gif format
 
 # contact

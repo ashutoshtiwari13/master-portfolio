@@ -1,6 +1,6 @@
 ---
 title: "Augmented Random Search for quadcopter control : An alternative to reinforcement learning"
-date: 2020-08-15T12:14:34+06:00
+date: 2020-06-15T12:14:34+06:00
 image: "images/publication/item-2.gif"
 client: "Ashutosh Tiwari & S.V. Nadimpalli"
 paper_url : "https://arxiv.org/abs/1911.12553"

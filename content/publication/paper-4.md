@@ -1,6 +1,6 @@
 ---
 title: "Learning semantic Image attributes using Image recognition and knowledge Graph embeddings"
-date: 2020-07-10T12:14:34+06:00
+date: 2020-06-10T12:14:34+06:00
 image: "images/publication/item-4.gif"
 client: "Ashutosh Tiwari as Co-author"
 paper_url : "https://www.linkedin.com/in/ashutoshtiwaridev/"

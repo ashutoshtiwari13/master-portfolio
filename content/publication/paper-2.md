@@ -1,6 +1,6 @@
 ---
 title: "New Fusion Algorithm provides an alternative approach for Robotic path planning"
-date: 2020-08-14T12:14:34+06:00
+date: 2020-06-14T12:14:34+06:00
 image: "images/publication/item-3.gif"
 client: "Ashutosh Tiwari & S.V. Nadimpalli"
 paper_url : "https://arxiv.org/abs/2006.05241"

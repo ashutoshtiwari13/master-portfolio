@@ -3,7 +3,7 @@ title: "Learning semantic Image attributes using Image recognition and knowledge
 date: 2020-06-10T12:14:34+06:00
 image: "images/publication/item-4.gif"
 client: "Ashutosh Tiwari & Dr. S.V. Nadimpalli (Assit. Professor)"
-paper_url : "https://www.linkedin.com/in/ashutoshtiwaridev/"
+paper_url : "https://arxiv.org/abs/2009.05812"
 categories: ["Deep Learning"]
 description: "This is meta description."
 draft: false
@@ -11,3 +11,5 @@ draft: false
 
 #### Paper details
 Accepted at Future Technologies Conference (FTC) 2020 , Vancouver, Canada
+
+Preprint ::

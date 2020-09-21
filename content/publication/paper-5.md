@@ -4,7 +4,7 @@ date: 2020-07-30T12:14:34+06:00
 image: "images/publication/item-5.gif"
 client: "Ashutosh Tiwari"
 paper_url : "https://www.linkedin.com/in/ashutoshtiwaridev/"
-categories: ["Robotics","RL"]
+categories: ["Robotics","Reinforcement Learning"]
 description: "This is meta description."
 draft: false
 ---

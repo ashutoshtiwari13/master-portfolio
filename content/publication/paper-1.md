@@ -4,7 +4,7 @@ date: 2020-06-15T12:14:34+06:00
 image: "images/publication/item-2.gif"
 client: "Ashutosh Tiwari & S.V. Nadimpalli"
 paper_url : "https://arxiv.org/abs/1911.12553"
-categories: ["Robotics"]
+categories: ["Reinforcement Learning"]
 description: "This is meta description."
 draft: false
 ---

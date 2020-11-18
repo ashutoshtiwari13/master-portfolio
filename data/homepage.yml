@@ -5,7 +5,8 @@ banner:
 # about
 about:
   enable : true
-  content : "Currently I am working at Oracle as a Software Developer. My interests in Behavioral Psychology , Neuroscience and the working of Brain, has kept me riveted to areas of Reinforcement Learning, Robotics and other research areas related to Deep learning."
+  content : "Currently, I am working at Oracle, IN. My innate interest towards understanding the science of how brain functions, has kept me riveted to areas of Reinforcement Learning, Robotics and Machine Learning. My research is at an intersection of Reinforcement Learning and Machine Learning with a focus on real-world applications.
+                       I enjoy reading about human psychology and neuroscience and draw inspiration from it."
   button1:
     enable : true
     label : "More About me"
@@ -156,12 +157,12 @@ blog:
 # testimonial
 testimonial:
   enable : false
-  title : "Recommendations"
+  title : "Ongoing projects"
   item:
     - name : "Karsin Kamakotti"
-      image : "images/testimonial/karsin.jpeg"
+      image : "https://www.youtube.com/embed/tfSS1e3kYeo"
       designation : "Senior Technical Staff at Oracle"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      content : "ARDOP Manipulation"
 
     - name : "Padmaraj Bhat"
       image : "images/testimonial/paddy.jpeg"

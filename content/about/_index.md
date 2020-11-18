@@ -11,10 +11,10 @@ draft: false
 
 ---
 
-Hello , I'm Ashutosh Kumar Tiwari, a passionate and self-taught software developer and research aficionado from India. I am currently working as a software developer at Oracle , India. I am carrying out independent research under the supervision of my university professor. My focus areas of research include a tight integration of perception, Machine learning/Deep reinforcement Learning and Planning to create autonomous systems. I have prior research experiences in Deep learning by working for several MNC's and have delivered several projects under them. The **main goal of my research** is to explore the nuances of lifelong learnng in Cyber and Autonomous systems.
+Hello, I'm Ashutosh Kumar Tiwari, a passionate and self-taught programmer and machine learning research aficionado from India. I am currently working as a software developer at Oracle, India. In addition, I am carrying out independent research under the supervision of my university professor. My research interest involves a tight integration of deep reinforcement learning strategies and perception & control of robust autonomous systems. I am also interested in **Continual Learning**, a branch of AI, which aims at teaching machines new concepts over time. The long term goal of my research is to explore the nuances of lifelong learnng in real-world settings of Autonomous machines.
 
 
-
-I also do a lot of **designing** , **painting** and digital art with **Music production/Mashups/Remixes**. I love programming and being creative with whatever I do.
+I love programming and being creative with whatever I do.
+I also do a lot of **designing** , **painting** and **digital art** with **Music production/Mashups/Remixes**. Take a look at my work below.
 
 Thanks for taking the time to know more about me!

@@ -42,6 +42,10 @@ team:
       image : "images/team/robotics.png"
       designation : "Udacity"
 
+    - title : "Autonomous Flight Engineer "
+      image : "images/team/flyingcar.png"
+      designation : "Udacity"
+
     - title : "Deep Learning Specialization"
       image : "images/team/DL.png"
       designation : "Coursera/DeepLearning.ai"
@@ -49,14 +53,11 @@ team:
     - title : "Google Android Developer"
       image : "images/team/android.jpg"
       designation : "Google | Simplilearn"
-      
+
     - title : "Arcore and Augmented Reality"
       image : "images/team/arcore.png"
       designation : "Google Daydream | Coursera"
 
-    - title : "Autonomous Flight Engineer "
-      image : "images/team/flyingcar.png"
-      designation : "Udacity"
 
 
 # client logo slider

@@ -30,11 +30,11 @@ skill:
       color : "#9473e6"
 
     - title : "Robotics"
-      progress : "60%"
+      progress : "80%"
       color : "#bdecf6"
 
     - title : "Web Development"
-      progress : "70%"
+      progress : "60%"
       color : "#ffbcaa"
 
 # experience
